@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_dangnhap"
+        android:text="Đăng nhập"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/lbl_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Tên đăng nhập:"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_dangnhap" />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_username"
+        android:hint="User name"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_dangnhap"
+        app:layout_constraintStart_toEndOf="@+id/lbl_username"
+        />
+
+    <TextView
+        android:id="@+id/lbl_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Mật khẩu:"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_username" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toEndOf="@+id/lbl_username"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_username" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_xanhla"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="Đăng nhập"
+        android:textColor="@color/mautrang"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chk_nho" />
+
+    <CheckBox
+        android:id="@+id/chk_nho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhớ mật khẩu"
+        app:layout_constraintStart_toEndOf="@+id/lbl_username"
+        app:layout_constraintTop_toBottomOf="@+id/edt_password" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

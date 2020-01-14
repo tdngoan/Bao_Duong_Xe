@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "365150415243",
+    "firebase_url": "https://bao-duong-xe.firebaseio.com",
+    "project_id": "bao-duong-xe",
+    "storage_bucket": "bao-duong-xe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365150415243:android:d5067869b95570da08678e",
+        "android_client_info": {
+          "package_name": "com.itnnsoft.bao_duong_xe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365150415243-e3gd58vbuv4th10g5eqalmhrv2rtg6mt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itnnsoft.bao_duong_xe",
+            "certificate_hash": "7cd494e72a5b47218c8a673e3fdcc01f4e83f97c"
+          }
+        },
+        {
+          "client_id": "365150415243-s13e8d9jomkif4pjt6pg3hsiu7j2afrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo9rzjZsdDAaO43LBgOs42dRxgScvTyVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365150415243-s13e8d9jomkif4pjt6pg3hsiu7j2afrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
